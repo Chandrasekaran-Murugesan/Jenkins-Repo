@@ -6,7 +6,7 @@ import org.springframework.web.bind.annotation.RestController;
 @RestController
 public class LoginController {
 
-	@RequestMapping("/")
+	@RequestMapping("/spring-boot-docker/")
 	public String login() {
 		return "login";
 	}
